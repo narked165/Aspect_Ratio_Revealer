@@ -1,0 +1,46 @@
+.app-modal-base {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(40,40,40,0.9)
+}
+.app-gadget-button {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    display:block;
+    left: 45.2%;
+    top: 45.3%;
+    color: rgba(220,220,220,0.9);
+    transition: all 1.5s 0.5s ease-in-out;
+    font-size: 4.8vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.app-gadget-button:hover {
+    color: rgba(220,20,220,9);
+    transform: rotate(360deg);
+    font-size: 15vw 
+}
+#app-title {
+    color: rgba(50,250,250, 1);
+    font-family: fantasy;
+    font-size: 3.5vw;
+    text-align: center;
+}
+#app-label {
+    color: rgba(250,50,250,1);
+    font-family: fantasy;
+    font-size: 3vw;
+    text-align: center;
+    
+
+}
